@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+//   transition: width 0.3s ease;
+  background-color: var(--sidebar-bg-color);
+  color:#fff !important;
+  width:var(--sidebar-width);
+}
+
+// .expanded {
+//   width: 250px;
+// }
+
+// .collapsed {
+//   width: 64px;
+// }
+
+.logo-container {
+//   padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px 0;
+  height:6rem;
+  img 
+  {
+    width:60px;
+    height: 60px;
+  }
+}
+
+.iconOnly {
+  .listItemText {
+    display: none;
+  }
+}
+.sidebar-item_child
+{
+    color:var(--sidebar-text-color);
+    transition:all 0.3s ease;
+    &:hover 
+    {
+        color:#fff;
+    }
+}

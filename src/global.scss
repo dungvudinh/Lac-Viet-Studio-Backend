@@ -1,0 +1,166 @@
+
+:root 
+{
+    --primary-color:#f77919;
+    --primary-color-bg: #fde6d4;
+    --primary-color-hover: #c26015;
+    --border-color: #ddd;
+    --text-white: #FFF;
+    --text-black:#111;
+    --item-border-color:hsla(0, 0%, 100%, .25);
+
+    --fs-xs: 10px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+
+    --title-fs-xs:1.4rem; // extra small
+    --title-fs-sm:1.5rem;
+    --title-fs-xm:1.8rem; //extra medium
+    --title-fs-md:2.5rem;
+
+    --desc-fs-xs:1rem;
+    --desc-fs-sm:1.2rem;
+    --desc-fs-md:1.3rem;
+
+    // --item-title-fs-md:1.8rem;
+    // --item-title-fs-sm:1.4rem;
+
+    // --item-desc-fs-md:1.3rem;
+    // --item-desc-fs-sm:1rem;
+    
+    --nav-border-color:#ddd;
+    --sidebar-bg-color:#202947;
+    --sidebar-text-color:#b2b8c7;   
+    --sidebar-width:15rem;
+    --navbar-bg-color:#fff;
+    --navbar-border-color:#e2e6f1;
+    --default-body-bg-color:rgb(249, 250, 252);
+    --nav-height:70px;
+}
+// $text-white: #FFF;
+// $text-black:#111;
+// $primary-color:#f77919;
+// $item-border-color:hsla(0, 0%, 100%, .25);
+* 
+{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+html 
+{
+    font-size:16px;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+body 
+{
+    font-family: 'Manrope', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height:6px;
+    background-color: #F5F5F5;
+    display: none;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: #9999;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+li 
+{
+    list-style-type: none;
+}
+i, svg
+{
+    cursor: pointer !important;
+}
+p 
+{
+    margin-bottom: 0 !important;
+}
+ul 
+{
+    padding:0;
+}
+a 
+{
+    color:var(--text-black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input 
+{
+    font-family: 'Manrope', sans-serif;
+}
+button
+{
+    border:none;
+    background-color: transparent;
+}
+.dot
+{
+    display: inline-block;
+    margin: 0 12px;
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 100%;
+    background: currentColor;
+}
+.icon-bg 
+{
+    padding: 5px 5px 0px 5px;
+    background-color: var(--primary-color-bg);
+    border-radius: 50%;
+}
+.MuiAccordion-root::before
+{
+    // width:91% !important;
+    // left:50% !important;
+    // transform:translateX(-50%) !important;
+    content:none !important;
+}
+.MuiAccordion-root::after 
+{
+    content: '';
+    height: 1px;
+    background-color:var(--item-border-color);
+    width:91%;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:0;
+}
+.MuiAccordion-root
+{
+    box-shadow: none !important;
+}
+.MuiSelect-root .Mui-focused
+{
+    border-color:red !important;
+}
+.MuiButton-outlined
+{
+    color:#111 !important;
+    border:1px solid #111 !important;
+}
+.swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.3);  /* Change to any color you prefer */
+}
+
+/* Customize the active pagination bullet */
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color);  /* Example: Tomato color for the active bullet */
+}

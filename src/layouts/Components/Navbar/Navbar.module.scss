@@ -1,0 +1,19 @@
+.navbar-container 
+{
+    width:calc(100% - var(--sidebar-width));
+    height:5rem;
+    background-color: var(--navbar-bg-color);
+    border-bottom:1px solid var(--navbar-border-color);
+    padding:0 1rem;
+    z-index: 1210;
+    .navbar-list 
+    {
+        display:flex;
+        flex-direction: row;
+        .navbar-list_item 
+        {
+            padding:0 1rem;
+            
+        }
+    }
+}

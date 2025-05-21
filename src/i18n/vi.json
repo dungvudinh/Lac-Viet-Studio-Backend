@@ -1,0 +1,13 @@
+{
+    "product-catalogs":"Danh sách danh mục",
+    "products":"Danh sách sản phẩm", 
+    "Product catalog already exists":"Danh mục sản phẩm đã tồn tại",
+    "Product already exists": "Sản phẩm đã tồn tại", 
+    "Create product catalog successfully":"Tạo danh mục sản phẩm thành công", 
+    "Create product successfully":"Tạo sản phẩm thành công", 
+    "Delete product catalog successfully":"Xóa danh mục sản phẩm thành công", 
+    "Delete failed, product catalog not found":"Xóa thất bại, danh mục sản phẩm không tồn tại", 
+    "Update product catalog successfully":"Cập nhập danh mục sản phẩm thành công",
+    "Update product successfully":"Cập nhập sản phẩm thành công",
+    "Delete product successfully":"Xóa sản phẩm thành công"
+}
