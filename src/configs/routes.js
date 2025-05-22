@@ -1,10 +1,10 @@
 const routes = {
-    dashboard: 'admin/',
-    toy: 'admin/store/toy',
-    productCatalog:'admin/product-catalogs',
-    product: 'admin/product-catalogs/:catalogSlug/products',
-    decoration: 'admin/store/decor',
-    unauthorized:'admin/unauthorized'
+    dashboard: '/',
+    toy: '/store/toy',
+    productCatalog:'/product-catalogs',
+    product: '/product-catalogs/:catalogSlug/products',
+    decoration: '/store/decor',
+    unauthorized:'/unauthorized'
   }
   
   export default routes

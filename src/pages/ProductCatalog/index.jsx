@@ -83,7 +83,7 @@ function ProductCatalog()
             <Button size='small' sx={{ backgroundColor:'#d32f2f' }} onClick={() => handleDelete(row.original._id)}>
               <DeleteOutline fontSize='small'/>
             </Button>
-            <Button size='small' sx={{ backgroundColor:'#42a5f5' }} onClick={() => navigate(`/admin/product-catalogs/${row.original.slug}/products`)}>
+            <Button size='small' sx={{ backgroundColor:'#42a5f5' }} onClick={() => navigate(`/product-catalogs/${row.original.slug}/products`)}>
               <MoreHoriz fontSize='small'/>
             </Button>
           </ButtonGroup>

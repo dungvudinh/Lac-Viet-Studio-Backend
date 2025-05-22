@@ -41,7 +41,7 @@ function Sidebar() {
         </AccordionSummary>
         <AccordionDetails>
           <List sx={{ color:'#fff', padding:0 }}>
-            <ListItem component={Link} to="/admin" className={cx('sidebar-item_child')}>
+            <ListItem component={Link} to="/" className={cx('sidebar-item_child')}>
               {/* <HorizontalRuleOutlined fontSize='small'/> */}
               <Typography fontWeight={600} fontSize='var(--fs-md)' marginLeft={'0.5rem'} sx={{ display:'flex', alignItems:'center' }}>
                 <EqualizerOutlined fontSize='small' sx={{ mr:1 }}/>
@@ -57,7 +57,7 @@ function Sidebar() {
         Danh mục
       </Typography>
       {/* Accordion Menu */}
-      <ListItemButton sx={{ fontWeight:600 }} onClick={() => navigate('/admin/product-catalogs')}>
+      <ListItemButton sx={{ fontWeight:600 }} onClick={() => navigate('/product-catalogs')}>
         <Category sx={{ mr:1 }}/>
         Quản lý sản phẩm
       </ListItemButton>

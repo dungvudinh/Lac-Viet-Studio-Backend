@@ -1,4 +1,4 @@
-import routes from '~/configs/Routes'
+import routes from '~/configs/routes'
 // PAGES 
 import Dashboard from '~/pages/Dashboard'
 import Store from '~/pages/Store'
