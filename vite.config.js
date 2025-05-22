@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: '/', // <-- make sure this is here
   plugins: [react()],
+  appType:'spa',
   build: {
     outDir: 'dist'
   }, 

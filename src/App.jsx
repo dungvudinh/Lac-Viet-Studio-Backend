@@ -6,6 +6,8 @@ import AuthRoute from './components/AuthRoute'
 import Login from './pages/Login'
 import Loading from '~/components/Loading'
 import CustomAlert from '~/components/Alert'
+import Product from './pages/Product'
+import ProductCatalog from './pages/ProductCatalog'
 function App() {
   
   return (
